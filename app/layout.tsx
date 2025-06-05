@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     "We craft digital experiences, transforming ideas into stunning, functional websites and applications",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
