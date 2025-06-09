@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// Project card component
 function ProjectCard({ 
   image, 
   title, 
@@ -57,7 +56,6 @@ function ProjectCard({
   );
 }
 
-// Featured project showcase
 function FeaturedProject() {
   return (
     <div className="mb-20 bg-white/5 rounded-xl p-6 md:p-8 relative">
@@ -104,7 +102,6 @@ function FeaturedProject() {
   );
 }
 
-// Portfolio project cards
 function ProjectShowcase() {
   const projects = [
     {
@@ -173,11 +170,8 @@ export default function ProjectsSection() {
         <p className="text-xl text-center mb-16 max-w-3xl mx-auto">
           Showcasing our best work and the creative solutions we've built for our clients
         </p>
-        
-        {/* Featured Project */}
+  
         <FeaturedProject />
-        
-        {/* Project Grid */}
         <ProjectShowcase />
         
         <div className="mt-12 flex justify-center">
